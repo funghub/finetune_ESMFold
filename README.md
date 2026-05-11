@@ -5,6 +5,7 @@ The model is loaded from Hugging Face (`facebook/esmfold_v1`) and fine-tuned usi
 ---
 
 # Methodology
+- Utilize Google Colab GPU runtime (G4)
 ## Data (in /data folder is subset II): 
 Protein sequences from TASmania_hits_seqtk.faa > TASmania_hits_seqtk-short.faa (~440 sequences total; ~25% used due to memory constraints)
 ## Filtering: 
